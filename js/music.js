@@ -1061,12 +1061,12 @@ function toggleTheme() {
         document.body.classList.remove('dark');
         localStorage.setItem('xuanken_theme', 'light');
         if (themeIcon) themeIcon.className = 'fal fa-sun';
-        showNotification('DARK MODE:', 'ĐÃ CHUYỂN DARK', '#ff9800', 'fa-sun');
+        showNotification('LIGHT MODE:', 'ĐÃ CHUYỂN LIGHT', '#ff9800', 'fa-sun');
     } else {
         document.body.classList.add('dark');
         localStorage.setItem('xuanken_theme', 'dark');
         if (themeIcon) themeIcon.className = 'fal fa-moon';
-        showNotification('LIGHT MODE:', 'ĐÃ CHUYỂN LIGHT', '#bb86fc', 'fa-moon');
+        showNotification('DARK MODE:', 'ĐÃ CHUYỂN DARK', '#bb86fc', 'fa-moon');
     }
     applyGradientToSongTitle();
     applyGradientToArtistName();
