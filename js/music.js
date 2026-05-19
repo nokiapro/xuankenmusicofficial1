@@ -1035,7 +1035,7 @@ window.onload = () => {
     applyGradientToSongTitle();
     applyGradientToArtistName();
     if ('mediaSession' in navigator) updateMediaSession();
-    fetchListenData();  // Chỉ lấy dữ liệu lượt nghe
+    fetchListenData();
     updateProgressUI();
 };
 
@@ -1092,7 +1092,7 @@ if (listenCountBtn) {
     };
 }
 
-listenInterval = setInterval(fetchListenData, 10000);
+listenInterval = setInterval(fetchListenData, 5000);
 window.addEventListener('beforeunload', () => {
     if (listenInterval) clearInterval(listenInterval);
 });
