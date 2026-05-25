@@ -109,7 +109,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/ANHYEUEMSAITHOIDIEM-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/4i6cgievzz4iv63p9maze/ANHYEUEMSAITHOIDIEM-XUANKEN.mp3?rlkey=2akpj5xnjg9q2gi2pqosabm81&st=lkr9n1i5&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/ANHYEUEMSAITHOIDIEM-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/s5517uy35ox6el8z10im9/ANHYEUEMSAITHOIDIEM-LYRIC.lrc?rlkey=w63rlr78wr0ai9iwuonsxoovq&st=a3kkuixr&dl=0",
     },
     {
         id: "DCTHP",
@@ -117,7 +117,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/DOICHOTRONGHANHPHUC-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/i6knkkziozjb96llznl5x/DOICHOTRONGHANHPHUC-XUANKEN.mp3?rlkey=jn2bc2nou1kq9p61gpddtw9cx&st=w8o50bm3&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/DOICHOTRONGHANHPHUC-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/ic1tvdnvo72f0oglk4s0l/DOICHOTRONGHANHPHUC-LYRIC.lrc?rlkey=cs5c4hru19ngxpzeoxn8b1w2j&st=o0bct67o&dl=0",
     },
     {
         id: "ECLBT",
@@ -424,11 +424,27 @@ const songs = [
         lrc2: "https://dl.dropboxusercontent.com/scl/fi/c478s987xwx6k4f9tb37d/VINGUOIRADILAEM-LYRIC.lrc?rlkey=4652or6rx9oj6ak35pc5s42r7&st=fxhbtizh&dl=0",
     },
     {
+        id: "CCNNRMK",
+        name: "Chỉ Còn Nỗi Nhớ (Remake)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/CHICONNOINHOREMAKE-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/hz3o4fpzi923wtmatewfc/CHICONNOINHOREMAKE-XUANKEN.mp3?rlkey=0s0x1pjnretc7splyr2pfystb&st=ecbv6gqr&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/CHICONNOINHOREMAKE-LYRIC.lrc",
+        lrc2: "",
+    },
+    {
         id: "DPMN",
         name: "Đơn Phương Một Người",
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/DONPHUONGMOTNGUOI-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/3ktypmo1ftdnjxaa84e7h/DONPHUONGMOTNGUOI-XUANKEN.mp3?rlkey=jgwio31idqud4mom5i8mue10i&st=yxks3kgc&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/DONPHUONGMOTNGUOI-LYRIC.lrc",
         lrc2: "https://dl.dropboxusercontent.com/scl/fi/p8gi1tzpugtvta6gvcqnh/DONPHUONGMOTNGUOI-LYRIC.lrc?rlkey=023nlk6a33yx55i3fa2tct8iy&st=zjktykqb&dl=0",
+    },
+    {
+        id: "CCNN",
+        name: "Chỉ Còn Nỗi Nhớ",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/CHICONNOINHO-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/197mae593vqipfshuwu3x/CHICONNOINHO-XUANKEN.mp3?rlkey=eps4a17ngxlhz98km8hl2phf9&st=rb600bpk&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/CHICONNOINHO-LYRIC.lrc",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/77klwvhih03qhxxza9yoy/CHICONNOINHO-LYRIC.lrc?rlkey=liv5eucci89rvk0mclj7jtzop&st=8guu545d&dl=0",
     },
 ];
