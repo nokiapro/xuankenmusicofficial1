@@ -463,4 +463,12 @@ const songs = [
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/DONPHUONGMOTNGUOIREMAKE-LYRIC.lrc",
         lrc2: "",
     },
+    {
+        id: "STNCC",
+        name: "Sau Tin Nhắn Cuối Cùng",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/SAUTINNHANCUOICUNG-XUANKEN.mp3",
+        audio2: "https://www.dropbox.com/scl/fi/9nevndn6wzh8z2spcvpgp/SAUTINNHANCUOICUNG-XUANKEN.mp3?rlkey=purmnppzj3wah52dp9306wrn6&st=3vw7cw87&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/SAUTINNHANCUOICUNG-LYRIC.lrc",
+        lrc2: "",
+    },
 ];
