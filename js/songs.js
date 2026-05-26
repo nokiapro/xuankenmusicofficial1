@@ -133,7 +133,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/KHI-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/zhpyu4foriy96avkvtx5t/KHI-XUANKEN.mp3?rlkey=3a3tqb62axoqwnszc340j3c11&st=pmyh4n6c&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/KHI-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/3sia20fm98mzwpy5oomrq/KHI-LYRIC.lrc?rlkey=j0uit3g16nfjatkt8vdsdzsd8&st=kagj33fn&dl=0",
     },
     {
         id: "CTLBV1",
@@ -446,5 +446,21 @@ const songs = [
         audio2: "https://dl.dropboxusercontent.com/scl/fi/197mae593vqipfshuwu3x/CHICONNOINHO-XUANKEN.mp3?rlkey=eps4a17ngxlhz98km8hl2phf9&st=rb600bpk&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/CHICONNOINHO-LYRIC.lrc",
         lrc2: "https://dl.dropboxusercontent.com/scl/fi/77klwvhih03qhxxza9yoy/CHICONNOINHO-LYRIC.lrc?rlkey=liv5eucci89rvk0mclj7jtzop&st=8guu545d&dl=0",
+    },
+    {
+        id: "GHNLCDRMK",
+        name: "Giữa Hai Người Là Cô Đơn (Remake)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/GIUAHAINGUOILACODONREMAKE-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/mzi3avqtbr1cxd5q7n03g/GIUAHAINGUOILACODONREMAKE-XUANKEN.mp3?rlkey=k77daaynowmhtu2opfbio0zek&st=xv6gcfr5&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/GIUAHAINGUOILACODONREMAKE-LYRIC.lrc",
+        lrc2: "",
+    },
+    {
+        id: "DPMNRMK",
+        name: "Đơn Phương Một Người (Remake)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/DONPHUONGMOTNGUOIREMAKE-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/befh2irdosd1dk1vmpq7t/DONPHUONGMOTNGUOIREMAKE-XUANKEN.mp3?rlkey=zvphp93vybczs9e7xhx7k5rvw&st=8z4d8dok&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/DONPHUONGMOTNGUOIREMAKE-LYRIC.lrc",
+        lrc2: "",
     },
 ];
