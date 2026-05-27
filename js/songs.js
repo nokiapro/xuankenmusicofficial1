@@ -141,7 +141,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/CHUYENTAULYBIETV1-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/itwl4qmf52swpx16zpuiw/CHUYENTAULYBIETV1-XUANKEN.mp3?rlkey=uug7me80pghelshev8alzy1mr&st=yhg50rjx&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/CHUYENTAULYBIETV1-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/8aql77b6gu8vhgg5mlc3o/CHUYENTAULYBIETV1-LYRIC.lrc?rlkey=a7w0qp5n7qzztu8nevhwkptnn&st=56mijmwo&dl=0",
     },
     {
         id: "CTLBV2",
@@ -149,7 +149,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/CHUYENTAULYBIETV2-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/6si135ztin6lcxiaxjthn/CHUYENTAULYBIETV2-XUANKEN.mp3?rlkey=g0hnxr8pbemyv782edmeuvxhb&st=rzq1ianv&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/CHUYENTAULYBIETV2-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/94g0rzxtzw3g49dxrfpws/CHUYENTAULYBIETV2-LYRIC.lrc?rlkey=xvxa50qb8yt9hc0j1tp74dui1&st=ub7p1t5u&dl=0",
     },
     {
         id: "50NVS",
