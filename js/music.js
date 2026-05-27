@@ -26,8 +26,7 @@ const playlistHeader = document.getElementById('playlist-header');
 const songTitleEl = document.getElementById('current-title');
 const artistNameEl = document.getElementById('current-artist');
 
-// API URL - THAY BẰNG URL CỦA BẠN
-const GOOGLE_SHEET_API = 'https://script.google.com/macros/s/AKfycby7rKbgEe3Uhr_mSitD9FRIjNkT--NI1Er-jexXlqEHu7pJAYWsSvbGMudIx6iWJt6vXg/exec';
+const GOOGLE_SHEET_API = 'https://script.google.com/macros/s/AKfycbxGCYEDg-CnXaQzMDQPRzxsopm79Ps1vXhw90uXAXvmlWLwgln0E0SB3a_74KE-AYKdfQ/exec';
 
 let listenData = {};
 let isUpdatingListen = false;
@@ -35,11 +34,6 @@ let hasRecordedCurrentSong = false;
 let currentSource = 'normal';
 
 let notificationTimeout = null;
-
-// Kiểm tra xem songs.js đã load chưa
-if (typeof songs === 'undefined') {
-    console.error("LỖI: CHƯA TẢI FILE songs.js!");
-}
 
 if (!Array.prototype.findLast) {
     Array.prototype.findLast = function(predicate) {
@@ -50,12 +44,14 @@ if (!Array.prototype.findLast) {
     };
 }
 
-// ============ HÀM LẤY LƯỢT NGHE (CÓ THÊM ORIGIN) ============
+if (typeof songs === 'undefined') {
+    console.error("LỖI: CHƯA TẢI FILE songs.js!");
+}
+
 async function fetchListenData() {
     if (isUpdatingListen) return listenData;
     try {
-        const origin = window.location.origin;
-        const response = await fetch(`${GOOGLE_SHEET_API}?action=get&web=web1&origin=${encodeURIComponent(origin)}&t=${Date.now()}`);
+        const response = await fetch(`${GOOGLE_SHEET_API}?action=get&web=web1&t=${Date.now()}`);
         if (response.ok) {
             const data = await response.json();
             listenData = {};
@@ -76,14 +72,12 @@ async function fetchListenData() {
     return listenData;
 }
 
-// ============ TĂNG LƯỢT NGHE ============
 async function incrementListenCount(songId, songName, source = 'normal') {
     if (!songId) return false;
     if (isUpdatingListen) return false;
     
     isUpdatingListen = true;
     try {
-        // increment là public action, không cần origin
         const response = await fetch(`${GOOGLE_SHEET_API}?action=increment&id=${encodeURIComponent(songId)}&name=${encodeURIComponent(songName)}&t=${Date.now()}`);
         const result = await response.json();
         if (result.success) {
