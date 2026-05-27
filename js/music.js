@@ -26,7 +26,12 @@ const playlistHeader = document.getElementById('playlist-header');
 const songTitleEl = document.getElementById('current-title');
 const artistNameEl = document.getElementById('current-artist');
 
+// API URL - THAY ĐỔI THÀNH API CỦA BẠN
 const GOOGLE_SHEET_API = 'https://script.google.com/macros/s/AKfycby7rKbgEe3Uhr_mSitD9FRIjNkT--NI1Er-jexXlqEHu7pJAYWsSvbGMudIx6iWJt6vXg/exec';
+
+// Biến kiểm tra domain đã được xác thực chưa
+let isDomainVerified = false;
+let domainCheckFailed = false;
 
 let listenData = {};
 let isUpdatingListen = false;
@@ -48,10 +53,94 @@ if (typeof songs === 'undefined') {
     console.error("LỖI: CHƯA TẢI FILE songs.js!");
 }
 
+// ============ HÀM KIỂM TRA DOMAIN MỚI ============
+
+// Lấy origin hiện tại
+function getCurrentOrigin() {
+    return window.location.origin;
+}
+
+// Kiểm tra domain có được phép không
+async function checkDomainPermission() {
+    try {
+        const origin = getCurrentOrigin();
+        
+        // Gọi API để kiểm tra domain (sử dụng action check-domain)
+        const response = await fetch(`${GOOGLE_SHEET_API}?action=check-domain&origin=${encodeURIComponent(origin)}&t=${Date.now()}`);
+        const result = await response.json();
+        
+        if (result.success === false && result.code === 'ACCESS_DENIED') {
+            console.error('DOMAIN KHÔNG ĐƯỢC PHÉP:', origin);
+            domainCheckFailed = true;
+            isDomainVerified = false;
+            showDomainBlockedMessage(origin);
+            return false;
+        }
+        
+        isDomainVerified = true;
+        console.log('✅ DOMAIN ĐƯỢC XÁC THỰC:', origin);
+        return true;
+        
+    } catch (error) {
+        console.error('LỖI KIỂM TRA DOMAIN:', error);
+        // Nếu có lỗi kiểm tra, vẫn cho phép truy cập (hoặc có thể chặn tùy bạn)
+        isDomainVerified = true;
+        return true;
+    }
+}
+
+// Hiển thị thông báo domain bị chặn
+function showDomainBlockedMessage(domain) {
+    const playerContainer = document.getElementById('player-container');
+    const hint = document.getElementById('interaction-hint');
+    
+    if (playerContainer) playerContainer.style.display = 'none';
+    if (hint) {
+        hint.style.display = 'flex';
+        hint.style.background = 'linear-gradient(135deg, #ff4444, #cc0000)';
+        hint.innerHTML = `
+            <div style="text-align: center; padding: 20px;">
+                <i class="fas fa-shield-alt" style="font-size: 48px; margin-bottom: 15px; display: block;"></i>
+                <div style="font-weight: bold; margin-bottom: 10px;">⚠️ TRUY CẬP BỊ TỪ CHỐI</div>
+                <div style="font-size: 14px; margin-bottom: 5px;">Domain: ${domain}</div>
+                <div style="font-size: 12px; opacity: 0.8;">Domain của bạn chưa được cấp phép</div>
+                <div style="font-size: 12px; margin-top: 15px;">Liên hệ quản trị viên để được hỗ trợ</div>
+            </div>
+        `;
+    }
+    
+    showNotification('TRUY CẬP BỊ TỪ CHỐI:', 'DOMAIN CHƯA ĐƯỢC CẤP PHÉP!', '#ff4444', 'fa-shield-alt');
+}
+
+// Wrapper cho fetch có kiểm tra domain
+async function fetchWithDomainCheck(url, options = {}) {
+    if (domainCheckFailed) {
+        throw new Error('Domain không được phép truy cập');
+    }
+    
+    // Thêm origin vào URL nếu là API call
+    let finalUrl = url;
+    if (url.includes(GOOGLE_SHEET_API)) {
+        const separator = url.includes('?') ? '&' : '?';
+        finalUrl = `${url}${separator}origin=${encodeURIComponent(getCurrentOrigin())}`;
+    }
+    
+    return fetch(finalUrl, options);
+}
+
+// ============ CÁC HÀM XỬ LÝ CHÍNH (CẬP NHẬT) ============
+
 async function fetchListenData() {
     if (isUpdatingListen) return listenData;
+    
+    // Kiểm tra domain trước khi gọi API
+    if (!isDomainVerified && !domainCheckFailed) {
+        const verified = await checkDomainPermission();
+        if (!verified) return listenData;
+    }
+    
     try {
-        const response = await fetch(`${GOOGLE_SHEET_API}?action=get&web=web1&t=${Date.now()}`);
+        const response = await fetchWithDomainCheck(`${GOOGLE_SHEET_API}?action=get&web=web1&t=${Date.now()}`);
         if (response.ok) {
             const data = await response.json();
             listenData = {};
@@ -66,6 +155,9 @@ async function fetchListenData() {
         }
     } catch (error) {
         console.log('API error, trying localStorage...');
+        if (error.message === 'Domain không được phép truy cập') {
+            return listenData;
+        }
         const saved = localStorage.getItem('xuanken_listens_web1');
         if (saved) { listenData = JSON.parse(saved); updateListenStatsModal(); }
     }
@@ -76,9 +168,15 @@ async function incrementListenCount(songId, songName, source = 'normal') {
     if (!songId) return false;
     if (isUpdatingListen) return false;
     
+    // Kiểm tra domain trước khi gọi API
+    if (!isDomainVerified && !domainCheckFailed) {
+        const verified = await checkDomainPermission();
+        if (!verified) return false;
+    }
+    
     isUpdatingListen = true;
     try {
-        const response = await fetch(`${GOOGLE_SHEET_API}?action=increment&id=${encodeURIComponent(songId)}&name=${encodeURIComponent(songName)}&t=${Date.now()}`);
+        const response = await fetchWithDomainCheck(`${GOOGLE_SHEET_API}?action=increment&id=${encodeURIComponent(songId)}&name=${encodeURIComponent(songName)}&t=${Date.now()}`);
         const result = await response.json();
         if (result.success) {
             listenData[songId] = result.count;
@@ -87,6 +185,9 @@ async function incrementListenCount(songId, songName, source = 'normal') {
             
             showNotification('+1 LISTEN:', `<i class="fa-regular fa-star"></i> ${songId} <i class="fa-regular fa-star"></i>`, '#4ade80', 'fa-headphones');
             console.log(`WEB1: GHI NHẬN ${songName} (${songId}) - ${result.count} (${source})`);
+        } else if (result.code === 'ACCESS_DENIED') {
+            domainCheckFailed = true;
+            showDomainBlockedMessage(getCurrentOrigin());
         }
     } catch (error) {
         console.error('LỖI TĂNG LƯỢT NGHE:', error);
@@ -100,6 +201,8 @@ async function incrementListenCount(songId, songName, source = 'normal') {
     }
     return true;
 }
+
+// ============ CÁC HÀM CÒN LẠI GIỮ NGUYÊN ============
 
 function recordListenWithSource(songId, songName, source) {
     if (!songId) return;
@@ -840,15 +943,28 @@ index = initIdx;
 const playerContainer = document.getElementById('player-container');
 if (playerContainer) playerContainer.style.display = 'none';
 
-if (hint) {
-    hint.onclick = () => {
-        hint.classList.add('hide');
-        setTimeout(() => {
-            hint.style.display = 'none';
-            if (playerContainer) playerContainer.style.display = 'flex';
-        }, 600);
+// Kiểm tra domain trước khi hiển thị player
+async function initializeApp() {
+    const isAllowed = await checkDomainPermission();
+    
+    if (hint) {
+        if (isAllowed) {
+            hint.onclick = () => {
+                hint.classList.add('hide');
+                setTimeout(() => {
+                    hint.style.display = 'none';
+                    if (playerContainer) playerContainer.style.display = 'flex';
+                }, 600);
+                changeSong(index, 'normal');
+            };
+        } else {
+            // Đã có thông báo từ hàm showDomainBlockedMessage
+            if (playerContainer) playerContainer.style.display = 'none';
+        }
+    } else if (isAllowed && playerContainer) {
+        playerContainer.style.display = 'flex';
         changeSong(index, 'normal');
-    };
+    }
 }
 
 const playPauseBtn = document.getElementById('play-pause-btn');
@@ -1037,6 +1153,7 @@ window.onload = () => {
     if ('mediaSession' in navigator) updateMediaSession();
     fetchListenData();
     updateProgressUI();
+    initializeApp(); // Khởi tạo với kiểm tra domain
 };
 
 const themeToggle = document.getElementById('theme-toggle');
