@@ -157,7 +157,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/50NAMVESAU-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/gx7lmver0no1ds2fg7xq3/50NAMVESAU-XUANKEN.mp3?rlkey=o3hrdj1nfkmts6nyll9gr6m8e&st=c3juscsq&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/50NAMVESAU-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/shskp35a337ofgyc3lzss/50NAMVESAU-LYRIC.lrc?rlkey=esgzd3ou6z3w8n5xk8c8k7min&st=2eqqh9ha&dl=0",
     },
     {
         id: "PCCENA",
@@ -469,6 +469,6 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/SAUTINNHANCUOICUNG-XUANKEN.mp3",
         audio2: "https://www.dropbox.com/scl/fi/9nevndn6wzh8z2spcvpgp/SAUTINNHANCUOICUNG-XUANKEN.mp3?rlkey=purmnppzj3wah52dp9306wrn6&st=3vw7cw87&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/SAUTINNHANCUOICUNG-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/kpw3za8aamyzgy2wae54y/SAUTINNHANCUOICUNG-LYRIC.lrc?rlkey=egrmmb21whrfn5thbi7745nsj&st=lndcii2a&dl=0",
     },
 ];
