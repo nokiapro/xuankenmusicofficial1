@@ -165,7 +165,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/PHOCUCONEM-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/hdhgb71qdnb8umpikx2zc/PHOCUCONEM-XUANKEN.mp3?rlkey=4antz9cak1qomr5a388ufpnwg&st=1p432yqb&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/PHOCUCONEM-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/tsmlyaonhe1tpupc03vfk/PHOCUCONEM-LYRIC.lrc?rlkey=ll8sfbadhxt6wgezf54redbw9&st=dg2ghga9&dl=0",
     },
     {
         id: "PCCANU",
@@ -173,7 +173,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/PHOCUCONANH-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/ecd36mpc0fwln8uayf1ob/PHOCUCONANH-XUANKEN.mp3?rlkey=a6cgjphx3k835fj0bsez7q0n0&st=thwtxs8o&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/PHOCUCONANH-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/r7hz6azahisadc6fkmkji/PHOCUCONANH-LYRIC.lrc?rlkey=7tffm91ckfczqll8vb9ty27hd&st=rpvcyswq&dl=0",
     },
     {
         id: "NKOL",
@@ -205,7 +205,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/COCHUTNGOTNGAONU-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/jj0rfg3hgn29kan17yw3d/COCHUTNGOTNGAONU-XUANKEN.mp3?rlkey=sl25xj6o977i4ec9r12hfsfon&st=8j4svwjf&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/COCHUTNGOTNGAONU-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/nu9fvjej9alp5jer9uvqg/COCHUTNGOTNGAONAM-LYRIC.lrc?rlkey=gqkp0rkh4h4bdxxx5ls4v71vy&st=2nk8cgxt&dl=0",
     },
     {
         id: "CCNNNA",
@@ -213,7 +213,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/COCHUTNGOTNGAONAM-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/ia8dyq8rsc98fikfce0zr/COCHUTNGOTNGAONAM-XUANKEN.mp3?rlkey=6zknjbdoglz86pga5k2zy45wz&st=e2hjfkdg&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/COCHUTNGOTNGAONAM-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/nu9fvjej9alp5jer9uvqg/COCHUTNGOTNGAONAM-LYRIC.lrc?rlkey=gqkp0rkh4h4bdxxx5ls4v71vy&st=2nk8cgxt&dl=0",
     },
     {
         id: "BTTTNU",
