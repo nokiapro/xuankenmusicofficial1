@@ -189,7 +189,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/MOLONGVIAI-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/2zd1wjb03tb3k3ba0z3ds/MOLONGVIAI-XUANKEN.mp3?rlkey=6fauh5zswmdgf1zojg8ktoo4w&st=ap5i0b5z&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/MOLONGVIAI-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/3lct6f7oov7nwcfwbb540/MOLONGVIAI-LYRIC.lrc?rlkey=2zzhdyuahqvpiv93lfcsd64vr&st=8rgkp4ve&dl=0",
     },
     {
         id: "ATAT",
