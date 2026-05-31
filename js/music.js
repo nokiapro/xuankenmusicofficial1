@@ -803,6 +803,9 @@ audio.onplay = () => {
     if (art) art.style.animationPlayState = 'running';
     requestWakeLock();
     if ('mediaSession' in navigator) navigator.mediaSession.playbackState = "playing";
+    
+    const playBtn = document.getElementById('play-pause-btn');
+    if (playBtn) playBtn.classList.add('playing');
 };
 
 audio.onpause = () => {
@@ -811,6 +814,9 @@ audio.onpause = () => {
     if (art) art.style.animationPlayState = 'paused';
     releaseWakeLock();
     if ('mediaSession' in navigator) navigator.mediaSession.playbackState = "paused";
+    
+    const playBtn = document.getElementById('play-pause-btn');
+    if (playBtn) playBtn.classList.remove('playing');
 };
 
 function escapeHtml(str) {
@@ -880,14 +886,20 @@ if (shuffleBtn) {
 }
 
 if (repeatBtn) {
+    const repeatIcon = repeatBtn.querySelector('i');
+    
     repeatBtn.onclick = function () {
         isRepeatOne = !isRepeatOne;
-        this.classList.toggle('active', isRepeatOne);
         isLoopingHandled = false;
+        
         if (isRepeatOne) {
-            showNotification('LẶP LẠI:', 'LẶP LẠI 1 BÀI', 'var(--accent-color)', 'fa-arrow-rotate-left');
+            this.classList.add('active');
+            if (repeatIcon) repeatIcon.className = 'fas fa-repeat-1';
+            showNotification('LẶP LẠI:', 'LẶP LẠI 1 BÀI', 'var(--accent-color)', 'fa-repeat-1');
         } else {
-            showNotification('TẮT LẶP:', 'ĐÃ TẮT LẶP', 'var(--accent-color)', 'fa-arrow-rotate-left');
+            this.classList.remove('active');
+            if (repeatIcon) repeatIcon.className = 'fas fa-repeat';
+            showNotification('TẮT LẶP:', 'ĐÃ TẮT LẶP', 'var(--accent-color)', 'fa-repeat');
         }
     };
 }
