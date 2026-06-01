@@ -137,7 +137,7 @@ const songs = [
     },
     {
         id: "CTLBV1",
-        name: "Chuyến Tàu Ly Biệt (Version 1)",
+        name: "Chuyến Tàu Ly Biệt (Ver 1)",
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/CHUYENTAULYBIETV1-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/itwl4qmf52swpx16zpuiw/CHUYENTAULYBIETV1-XUANKEN.mp3?rlkey=uug7me80pghelshev8alzy1mr&st=yhg50rjx&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/CHUYENTAULYBIETV1-LYRIC.lrc",
@@ -145,7 +145,7 @@ const songs = [
     },
     {
         id: "CTLBV2",
-        name: "Chuyến Tàu Ly Biệt (Version 2)",
+        name: "Chuyến Tàu Ly Biệt (Ver 2)",
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/CHUYENTAULYBIETV2-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/6si135ztin6lcxiaxjthn/CHUYENTAULYBIETV2-XUANKEN.mp3?rlkey=g0hnxr8pbemyv782edmeuvxhb&st=rzq1ianv&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/CHUYENTAULYBIETV2-LYRIC.lrc",
@@ -197,7 +197,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/ANHTHUAANHTA-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/ks07aijjdbrhig5emukf2/ANHTHUAANHTA-XUANKEN.mp3?rlkey=e99e54mwuq8371pot2bqtonuv&st=oeebbrr1&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/ANHTHUAANHTA-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/j7wcy41ledd6mcxy9c574/ANHTHUAANHTA-LYRIC.lrc?rlkey=4jygdn9cm34pe2ifad6bw5npf&st=ca8dns4f&dl=0",
     },
     {
         id: "CCNNNU",
@@ -475,8 +475,16 @@ const songs = [
         id: "STNCC",
         name: "Sau Tin Nhắn Cuối Cùng",
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/SAUTINNHANCUOICUNG-XUANKEN.mp3",
-        audio2: "https://www.dropbox.com/scl/fi/9nevndn6wzh8z2spcvpgp/SAUTINNHANCUOICUNG-XUANKEN.mp3?rlkey=purmnppzj3wah52dp9306wrn6&st=3vw7cw87&dl=0",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/9nevndn6wzh8z2spcvpgp/SAUTINNHANCUOICUNG-XUANKEN.mp3?rlkey=purmnppzj3wah52dp9306wrn6&st=3vw7cw87&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/SAUTINNHANCUOICUNG-LYRIC.lrc",
         lrc2: "https://dl.dropboxusercontent.com/scl/fi/kpw3za8aamyzgy2wae54y/SAUTINNHANCUOICUNG-LYRIC.lrc?rlkey=egrmmb21whrfn5thbi7745nsj&st=lndcii2a&dl=0",
+    },
+    {
+        id: "TSS",
+        name: "Tình Sao Sáng",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/TINHSAOSANG-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/sbg25dfxn60grwq8v7wcl/TINHSAOSANG-XUANKEN.mp3?rlkey=3gamigtufozi4ufdxqr0rf6qy&st=m26c0piz&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/TINHSAOSANG-LYRIC.lrc",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/rdey9p5j0xsdfor3oqhu2/TINHSAOSANG-LYRIC.lrc?rlkey=3p0v13yiq1lyj9b7ksv847ol8&st=ezf7sk50&dl=0",
     },
 ];
