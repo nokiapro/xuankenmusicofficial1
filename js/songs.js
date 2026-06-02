@@ -487,4 +487,12 @@ const songs = [
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/TINHSAOSANG-LYRIC.lrc",
         lrc2: "https://dl.dropboxusercontent.com/scl/fi/rdey9p5j0xsdfor3oqhu2/TINHSAOSANG-LYRIC.lrc?rlkey=3p0v13yiq1lyj9b7ksv847ol8&st=ezf7sk50&dl=0",
     },
+    {
+        id: "GNNKE",
+        name: "Giữa Những Ngày Không Em",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/GIUANHUNGNGAYKHONGEM-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/yfpkpk6x5sntn3q18k4bg/GIUANHUNGNGAYKHONGEM-XUANKEN.mp3?rlkey=tx02f10pgseknd8hqybavj8mq&st=x68ztpnu&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/GIUANHUNGNGAYKHONGEM-LYRIC.lrc",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/rl4wva8kmrhkadwc96eb6/GIUANHUNGNGAYKHONGEM-LYRIC.lrc?rlkey=87fw03laqyio6to7p0r1nb5ne&st=kr2putrz&dl=0",
+    },
 ];
