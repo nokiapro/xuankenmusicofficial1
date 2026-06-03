@@ -125,7 +125,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/EMCHILABANTHAN-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/g4wy0ph5xbw1xe6jiloxs/EMCHILABANTHAN-XUANKEN.mp3?rlkey=1nvjs671dua8vs5998j0l5u9e&st=hmcwhswl&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/EMCHILABANTHAN-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/3b7g06t00gbnfb2lyldkx/EMCHILABANTHAN-LYRIC.lrc?rlkey=r1z5dw8n21j5dton39kbe0dkj&st=fobw0zmd&dl=0",
     },
     {
         id: "KHI",
@@ -237,7 +237,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/CAMONNHE-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/8nippzv9z1tpz8cyg3ut0/CAMONNHE-XUANKEN.mp3?rlkey=p2mbpeguwmyoeyqmvh0nqey9g&st=bav6msre&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/CAMONNHE-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/xp3i60cp7drktyh3eogw0/CAMONNHE-LYRIC.lrc?rlkey=xskite6tijtlqqydpi5bsd1v9&st=m04xm21l&dl=0",
     },
     {
         id: "SLH",
@@ -251,9 +251,9 @@ const songs = [
         id: "TK",
         name: "Tình Khuyết",
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/TINHKHUYET-XUANKEN.mp3",
-        audio2: "https://dl.dropboxusercontent.com/scl/fi/ci7itof2vac38n6u28bti/TINHKHUYET-XUANKEN.mp3?rlkey=r7cxbmpd952r0xy7y41r5b0cw&st=twj1m549&dl=0",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/4bt6hk5xdq007pwfpa9gg/TINHKHUYET-XUANKEN.mp3?rlkey=sdxlo5ic4j98j4722eb7a6q2u&st=tvd54dpw&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/TINHKHUYET-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/8qsk0qr7wiw2qqzvafn0m/TINHKHUYET-LYRIC.lrc?rlkey=otygwuqnj2ptp9cmn0493z4ed&st=zhnbkztz&dl=0",
     },
     {
         id: "NBE",
