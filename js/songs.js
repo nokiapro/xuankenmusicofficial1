@@ -261,7 +261,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/NGOIBENEM-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/s8vomb8b9qkb4pxo05lkw/NGOIBENEM-XUANKEN.mp3?rlkey=ckrqm58my2zx30jtoh74016nr&st=174y8syy&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/NGOIBENEM-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/23lkia7t8nknspw3zm05p/NGOIBENEM-LYRIC.lrc?rlkey=tbsdolda2noonuvsidqfg3btr&st=bxl13rbx&dl=0",
     },
     {
         id: "TDTNNU",
