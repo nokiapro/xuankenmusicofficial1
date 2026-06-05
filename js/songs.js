@@ -498,7 +498,7 @@ const songs = [
     {
         id: "YLPZ",
         name: "Yêu Là Phải Zui",
-        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/YEULAIPHAIZUI-XUANKEN.mp3",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/YEULAPHAIZUI-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/iz9lvg1uc9nj6z62kkvlz/YEULAPHAIZUI-XUANKEN.mp3?rlkey=1m8u4dtg8qg70ba7w7ecguqm8&st=yctumrd3&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/YEULAPHAIZUI-LYRIC.lrc",
         lrc2: "https://dl.dropboxusercontent.com/scl/fi/n208942x1ofwiy4xos5po/YEULAPHAIZUI-LYRIC.lrc?rlkey=xhn6q2alzuptj5n7z4kz73m8e&st=paxd0uox&dl=0",
