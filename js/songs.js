@@ -269,7 +269,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/TIEUDAOTUYETNHATNU-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/0tyy5hyl9hkns6cvobb03/TIEUDAOTUYETNHATNU-XUANKEN.mp3?rlkey=9roii9h3gkytex2pnoeksdgqq&st=zdoy5osc&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/TIEUDAOTUYETNHATNU-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/ytvo7i4zptp0nc43kwloa/TIEUDAOTUYETNHATNU-LYRIC.lrc?rlkey=eokvl1ydpjv26751n3oco58xz&st=foclxdqg&dl=0",
     },
     {
         id: "TDTNNA",
@@ -277,7 +277,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/TIEUDAOTUYETNHATNAM-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/nh33b9axnj1y96hbhh0a6/TIEUDAOTUYETNHATNAM-XUANKEN.mp3?rlkey=u0zdtwjtb6rqrxkahnmd65kl4&st=3twzmajs&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/TIEUDAOTUYETNHATNAM-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/5uum3n2dcygoazrm1cnpg/TIEUDAOTUYETNHATNAM-LYRIC.lrc?rlkey=b3sax386efgaw29c54k1enbmy&st=gj4ekfmo&dl=0",
     },
     {
         id: "NOLGMRMK",
@@ -494,5 +494,13 @@ const songs = [
         audio2: "https://dl.dropboxusercontent.com/scl/fi/yfpkpk6x5sntn3q18k4bg/GIUANHUNGNGAYKHONGEM-XUANKEN.mp3?rlkey=tx02f10pgseknd8hqybavj8mq&st=x68ztpnu&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/GIUANHUNGNGAYKHONGEM-LYRIC.lrc",
         lrc2: "https://dl.dropboxusercontent.com/scl/fi/rl4wva8kmrhkadwc96eb6/GIUANHUNGNGAYKHONGEM-LYRIC.lrc?rlkey=87fw03laqyio6to7p0r1nb5ne&st=kr2putrz&dl=0",
+    },
+    {
+        id: "YLPZ",
+        name: "Yêu Là Phải Zui",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/YEULAIPHAIZUI-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/iz9lvg1uc9nj6z62kkvlz/YEULAPHAIZUI-XUANKEN.mp3?rlkey=1m8u4dtg8qg70ba7w7ecguqm8&st=yctumrd3&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/YEULAPHAIZUI-LYRIC.lrc",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/n208942x1ofwiy4xos5po/YEULAPHAIZUI-LYRIC.lrc?rlkey=xhn6q2alzuptj5n7z4kz73m8e&st=paxd0uox&dl=0",
     },
 ];
