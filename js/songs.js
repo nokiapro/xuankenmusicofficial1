@@ -269,7 +269,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/TIEUDAOTUYETNHATNU-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/0tyy5hyl9hkns6cvobb03/TIEUDAOTUYETNHATNU-XUANKEN.mp3?rlkey=9roii9h3gkytex2pnoeksdgqq&st=zdoy5osc&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/TIEUDAOTUYETNHATNU-LYRIC.lrc",
-        lrc2: "https://dl.dropboxusercontent.com/scl/fi/ytvo7i4zptp0nc43kwloa/TIEUDAOTUYETNHATNU-LYRIC.lrc?rlkey=eokvl1ydpjv26751n3oco58xz&st=foclxdqg&dl=0",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/hmls3nskxewi4fgszinzs/TIEUDAOTUYETNHATNU-LYRIC.lrc?rlkey=d1a9tcjge0s218a7waa59rl14&st=2m9dhq66&dl=0",
     },
     {
         id: "TDTNNA",
@@ -493,12 +493,12 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/GIUANHUNGNGAYKHONGEM-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/yfpkpk6x5sntn3q18k4bg/GIUANHUNGNGAYKHONGEM-XUANKEN.mp3?rlkey=tx02f10pgseknd8hqybavj8mq&st=x68ztpnu&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/GIUANHUNGNGAYKHONGEM-LYRIC.lrc",
-        lrc2: "https://dl.dropboxusercontent.com/scl/fi/rl4wva8kmrhkadwc96eb6/GIUANHUNGNGAYKHONGEM-LYRIC.lrc?rlkey=87fw03laqyio6to7p0r1nb5ne&st=kr2putrz&dl=0",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/9h9qeez5okzgjcyjoji5z/GIUANHUNGNGAYKHONGEM-LYRIC.lrc?rlkey=20un4zy9pw1gp9qh2waobdm95&st=kzl2qs0x&dl=0",
     },
     {
         id: "YLPZ",
         name: "Yêu Là Phải Zui",
-        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/YEULAPHAIZUI-XUANKEN.mp3",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/YEULAIPHAIZUI-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/iz9lvg1uc9nj6z62kkvlz/YEULAPHAIZUI-XUANKEN.mp3?rlkey=1m8u4dtg8qg70ba7w7ecguqm8&st=yctumrd3&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/YEULAPHAIZUI-LYRIC.lrc",
         lrc2: "https://dl.dropboxusercontent.com/scl/fi/n208942x1ofwiy4xos5po/YEULAPHAIZUI-LYRIC.lrc?rlkey=xhn6q2alzuptj5n7z4kz73m8e&st=paxd0uox&dl=0",
