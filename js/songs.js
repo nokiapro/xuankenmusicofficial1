@@ -285,7 +285,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/NGUOIOLAIGIUAMUAREMAKE-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/xcb88dzoba7jqhdioqr26/NGUOIOLAIGIUAMUAREMAKE-XUANKEN.mp3?rlkey=s64xw2cf1tu1ge6t1nif3fgkh&st=4ak2r3lx&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/NGUOIOLAIGIUAMUAREMAKE-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/8xyuzlpovhb9oo94shhzt/NGUOIOLAIGIUAMUAREMAKE-LYRIC.lrc?rlkey=xk96236nf2nk8d0hsemirt5fo&st=ywr9f5t7&dl=0",
     },
     {
         id: "SCMLNNRMK",
