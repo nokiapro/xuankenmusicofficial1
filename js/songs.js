@@ -301,7 +301,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/SAUCONMUALANOINHOREMAKE-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/4nhyf9wfo22zcf8kepvos/SAUCONMUALANOINHOREMAKE-XUANKEN.mp3?rlkey=qnn35aewi5kkbz8iesz6dyyev&st=qzktv3d1&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/SAUCONMUALANOINHOREMAKE-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/pyh5uylkg4w725c50rn4h/SAUCONMUALANOINHOREMAKE-LYRIC.lrc?rlkey=e9ftz6mrgq4yqztbivtmy13ff&st=jqmmi5vr&dl=0",
     },
     {
         id: "GNNKERMK",
