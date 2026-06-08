@@ -511,4 +511,12 @@ const songs = [
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/YEULAPHAIZUI-LYRIC.lrc",
         lrc2: "https://dl.dropboxusercontent.com/scl/fi/n208942x1ofwiy4xos5po/YEULAPHAIZUI-LYRIC.lrc?rlkey=xhn6q2alzuptj5n7z4kz73m8e&st=paxd0uox&dl=0",
     },
+    {
+        id: "THST",
+        name: "Thiệp Hồng Sai Tên",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/THIEPHONGSAITEN-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/42es0vmuhckdse7oxxj4u/THIEPHONGSAITEN-XUANKEN.mp3?rlkey=eeld1muhae0oev2g73doq8s5v&st=59ckk7sr&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/THIEPHONGSAITEN-LYRIC.lrc",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/mphx8b47rgfe3eewq42r9/THIEPHONGSAITEN-LYRIC.lrc?rlkey=u8jrdm5bn40ozpihe1waka9gu&st=y30zsdv9&dl=0",
+    },
 ];
