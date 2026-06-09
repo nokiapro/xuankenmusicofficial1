@@ -57,7 +57,7 @@ async function fetchListenData() {
             listenData = {};
             Object.values(data).forEach(song => {
                 if (song.id) {
-                    listenData[song.id] = song.listen || 0;
+                    listenData[song.ID] = song.listen || 0;
                 }
             });
             updateListenStatsModal();
@@ -240,10 +240,10 @@ function updateListenStatsModal() {
     }
     
     if (listenData && Object.keys(listenData).length > 0) {
-        const currentSongId = songs[index]?.id;
+        const currentSongId = songs[index]?.ID;
         const statsHtml = songs.map(song => {
-            const count = listenData[song.id] || 0;
-            const isCurrent = (song.id === currentSongId);
+            const count = listenData[song.ID] || 0;
+            const isCurrent = (song.ID === currentSongId);
             return `
                 <div class="listen-stat-item ${isCurrent ? 'current-playing' : ''}" data-song-id="${song.id}">
                     <span class="listen-stat-name">${escapeHtmlStat(song.name).toUpperCase()}</span>
@@ -336,7 +336,7 @@ function updateCurrentSongHighlightAndScroll() {
     const modal = document.getElementById('listen-stats-modal');
     if (!modal) return;
     
-    const currentSongId = songs[index]?.id;
+    const currentSongId = songs[index]?.ID;
     const statItems = modal.querySelectorAll('.listen-stat-item');
     
     let foundCurrent = false;
@@ -572,7 +572,7 @@ async function loadSong(i) {
     index = i;
     const song = songs[index];
     if (songTitleEl) {
-        songTitleEl.innerText = song.name;
+        songTitleEl.innerText = song.NAME;
         applyGradientToSongTitle();
     }
     if (artistNameEl) {
@@ -584,12 +584,12 @@ async function loadSong(i) {
     document.documentElement.style.setProperty('--bg-color', colors.bg);
     document.documentElement.style.setProperty('--accent-color', colors.accent);
     audio.pause();
-    audio.src = song.audio1;
+    audio.src = song.AUDIO1;
     audio.load();
     lyrics = [];
     lastLyric = "";
     adjustLyricFontSize("ĐANG TẢI LỜI BÀI HÁT...");
-    lyrics = await fetchLyricWithFallback(song.lrc1, song.lrc2);
+    lyrics = await fetchLyricWithFallback(song.LRC1, song.LRC2);
     if (lyrics.length === 0) adjustLyricFontSize("BÀI HÁT TẠM CHƯA CÓ LYRIC NHA HIHI");
     renderPlaylist();
     updateMediaSession();
@@ -653,9 +653,9 @@ audio.onerror = () => {
     if (!songs[index]) return;
     const song = songs[index];
     const currentSrc = audio.src;
-    if (currentSrc === song.audio1 && song.audio2 && song.audio2.trim() !== "") {
+    if (currentSrc === song.AUDIO1 && song.AUDIO2 && song.AUDIO2.trim() !== "") {
         showNotification('THỬ LINK DỰ PHÒNG:', 'ĐANG THỬ LINK DỰ PHÒNG...', '#ff9800', 'fa-circle-notch');
-        audio.src = song.audio2;
+        audio.src = song.AUDIO2;
         audio.load();
         audio.play().catch(e => console.error(e));
     } else showNotification('LỖI:', 'KHÔNG THỂ PHÁT BÀI HÁT!', '#ff4444', 'fa-circle-exclamation');
@@ -745,9 +745,9 @@ audio.ontimeupdate = () => {
     }
     
     if (cur >= 5 && !hasRecordedCurrentSong && !isUpdatingListen && !isChanging && dur && dur > 5) {
-        if (songs[index] && songs[index].id) {
+        if (songs[index] && songs[index].ID) {
             hasRecordedCurrentSong = true;
-            incrementListenCount(songs[index].id, songs[index].name, currentSource);
+            incrementListenCount(songs[index].ID, songs[index].NAME, currentSource);
             console.log(`WEB1: GHI NHẬN SAU 5 GIÂY: ${songs[index].name} (${songs[index].id}) - NGUỒN: ${currentSource}`);
         }
     }
@@ -835,7 +835,7 @@ function renderPlaylist() {
         list.innerHTML = '<div style="text-align:center;padding:40px">ĐANG TẢI DANH SÁCH...</div>';
         return;
     }
-    list.innerHTML = songs.map((s, i) => `<div class="song-item ${i === index ? 'active' : ''}" onclick="window.selectSongFromList(${i})"><div class="flex-1"><div class="item-title text-sm uppercase font-bold break-words pr-2">${escapeHtml(s.name)}</div><div class="text-xs text-gray-500"><i class="fa-regular fa-microphone"></i> XuanKen Official</div></div>${i === index ? '<i class="fa-sharp fa-light fa-face-grin-tongue-squint"></i>' : ''}</div>`).join('');
+    list.innerHTML = songs.map((s, i) => `<div class="song-item ${i === index ? 'active' : ''}" onclick="window.selectSongFromList(${i})"><div class="flex-1"><div class="item-title text-sm uppercase font-bold break-words pr-2">${escapeHtml(s.NAME)}</div><div class="text-xs text-gray-500"><i class="fa-regular fa-microphone"></i> XuanKen Official</div></div>${i === index ? '<i class="fa-sharp fa-light fa-face-grin-tongue-squint"></i>' : ''}</div>`).join('');
 }
 
 const initIdx = getInitialShuffleIndex();
