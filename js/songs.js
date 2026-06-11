@@ -328,6 +328,14 @@ const songs = [
         lrc2: "",
     },
     {
+        id: "CVTY",
+        name: "Cầu Vồng Tình Yêu",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/CAUVONGTINHYEU-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/cuei0bsf4ytosz2ylxc4w/CAUVONGTINHYEU-XUANKEN.mp3?rlkey=0kd5k7wmyqxqdm9ke0gamgafu&st=wvyrs5jj&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/CAUVONGTINHYEU-LYRIC.lrc",
+        lrc2: "",
+    },
+    {
         id: "MCTETD",
         name: "Mỉm Cười Trông Em Thật Đẹp",
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/MIMCUOITRONGEMTHATDEP-XUANKEN.mp3",
