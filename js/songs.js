@@ -195,9 +195,9 @@ const songs = [
         id: "ATAT",
         name: "Anh Thua Anh Ta (Cover)",
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/ANHTHUAANHTA-XUANKEN.mp3",
-        audio2: "https://dl.dropboxusercontent.com/scl/fi/ks07aijjdbrhig5emukf2/ANHTHUAANHTA-XUANKEN.mp3?rlkey=e99e54mwuq8371pot2bqtonuv&st=oeebbrr1&dl=0",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/l9xefrqht2xroh0zvkh3m/ANHTHUAANHTA-XUANKEN.mp3?rlkey=gq3iu0xjycimmsfm4vzedusl4&st=e2jt4ybw&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/ANHTHUAANHTA-LYRIC.lrc",
-        lrc2: "https://dl.dropboxusercontent.com/scl/fi/j7wcy41ledd6mcxy9c574/ANHTHUAANHTA-LYRIC.lrc?rlkey=4jygdn9cm34pe2ifad6bw5npf&st=ca8dns4f&dl=0",
+        lrc2: "",
     },
     {
         id: "CCNNNU",
@@ -566,5 +566,21 @@ const songs = [
         audio2: "https://dl.dropboxusercontent.com/scl/fi/pstgblsd7d5zp2dgoydtb/VUQUY-XUANKEN.mp3?rlkey=4hif7sw0evd3xxksyj0n5kblj&st=ifasqmkv&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/VUQUY-LYRIC.lrc",
         lrc2: "https://dl.dropboxusercontent.com/scl/fi/bsrhthpkn1kf211kqcd2n/VUQUY-LYRIC.lrc?rlkey=6ui3s7zpp8agvhortgjhbet7w&st=s7lc8o19&dl=0",
+    },
+    {
+        id: "ELCBT2",
+        name: "Em Là Cả Bầu Trời 2 (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/EMLACABAUTROI2-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/yy3puxhph11602isvsugw/EMLACABAUTROI2-XUANKEN.mp3?rlkey=3yf2w8vjrgx4btmakggfppes1&st=e70piblq&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/EMLACABAUTROI2-LYRIC.lrc",
+        lrc2: "",
+    },
+    {
+        id: "TKCERMK",
+        name: "Từ Khi Có Em (Remake)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/TUKHICOEMREMAKE-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/ld2mn9y4xrs9ufu3ai1b7/TUKHICOEMREMAKE-XUANKEN.mp3?rlkey=alogpyc2v1v5hxlfyoneh2kec&st=s5e0fvxk&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/TUKHICOEMREMAKE-LYRIC.lrc",
+        lrc2: "",
     },
 ];
