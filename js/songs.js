@@ -599,4 +599,12 @@ const songs = [
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/NUOCMATROINAM-LYRIC.lrc",
         lrc2: "",
     },
+    {
+        id: "NEDN",
+        name: "Ngày Em Đẹp Nhất (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/NGAYEMDEPNHAT-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/4xsetqxi5vsxjhoim3se6/NGAYEMDEPNHAT-XUANKEN.mp3?rlkey=7zzzc6si03qflrhrlm3r4itge&st=6inq4ja4&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/NGAYEMDEPNHAT-LYRIC.lrc",
+        lrc2: "",
+    },
 ];
