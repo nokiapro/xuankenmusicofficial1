@@ -583,4 +583,20 @@ const songs = [
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/TUKHICOEMREMAKE-LYRIC.lrc",
         lrc2: "",
     },
+    {
+        id: "NMRNU",
+        name: "Nước Mắt Rơi (Version Nữ) (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/NUOCMATROINU-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/o4jrmqoz62h9l0m8nlh76/NUOCMATROINU-XUANKEN.mp3?rlkey=c3as9jr8nwo4ts3mukun9y9eh&st=8fb1gnnu&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/NUOCMATROINU-LYRIC.lrc",
+        lrc2: "",
+    },
+    {
+        id: "NMRNA",
+        name: "Nước Mắt Rơi (Version Nam) (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/NUOCMATROINAM-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/cj69tou602cft2hoew0lq/NUOCMATROINAM-XUANKEN.mp3?rlkey=9dbaw2pqw7f9my1vlgiw6fjga&st=ee8xkayk&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/NUOCMATROINAM-LYRIC.lrc",
+        lrc2: "",
+    },
 ];
