@@ -607,4 +607,20 @@ const songs = [
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/NGAYEMDEPNHAT-LYRIC.lrc",
         lrc2: "",
     },
+    {
+        id: "SNCTNU",
+        name: "Say Nắng Chiều Ta (Version Nữ) (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/SAYNANGCHIEUTANU-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/ahmci3djtc27esedcc56x/SAYNANGCHIEUTANU-XUANKEN.mp3?rlkey=2m6c8mx8fpn2hmsi8dvwukgyu&st=pwk1ssf1&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/SAYNANGCHIEUTANU-LYRIC.lrc",
+        lrc2: "",
+    },
+    {
+        id: "SNCTNA",
+        name: "Say Nắng Chiều Ta (Version Nam) (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/SAYNANGCHIEUTANAM-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/92r9j5r796ejd0zcuy891/SAYNANGCHIEUTANAM-XUANKEN.mp3?rlkey=h933d3lxtc76tuz8re46psigh&st=hu0w0vap&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/SAYNANGCHIEUTANAM-LYRIC.lrc",
+        lrc2: "",
+    },
 ];
