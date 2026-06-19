@@ -623,4 +623,12 @@ const songs = [
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/SAYNANGCHIEUTANAM-LYRIC.lrc",
         lrc2: "",
     },
+    {
+        id: "PBN",
+        name: "Phim Ba Người (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/PHIMBANGUOI-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/l5tkq8gagfr6jp6n9lu4t/PHIMBANGUOI-XUANKEN.mp3?rlkey=1tzlmxdm10pajswc0wpsuuivk&st=o8jsi5i1&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/PHIMBANGUOI-LYRIC.lrc",
+        lrc2: "",
+    },
 ];
