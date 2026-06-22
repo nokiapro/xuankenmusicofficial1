@@ -631,4 +631,12 @@ const songs = [
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/PHIMBANGUOI-LYRIC.lrc",
         lrc2: "",
     },
+    {
+        id: "NDLA",
+        name: "Người Đau Là Anh",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/NGUOIDAULAANH-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/myc2kewaoniwpvy4qxtje/NGUOIDAULAANH-XUANKEN.mp3?rlkey=jfrbtpnbe0im3fgbrn230kvmz&st=iqffzl3q&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/NGUOIDAULAANH-LYRIC.lrc",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/kcebtaakas6ldx7utxq8i/NGUOIDAULAANH-LYRIC.lrc?rlkey=6qhbnb1lx6l0gr4gkprutgtap&st=zum542bb&dl=0",
+    },
 ];
