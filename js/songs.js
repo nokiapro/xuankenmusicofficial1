@@ -639,4 +639,12 @@ const songs = [
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/NGUOIDAULAANH-LYRIC.lrc",
         lrc2: "https://dl.dropboxusercontent.com/scl/fi/kcebtaakas6ldx7utxq8i/NGUOIDAULAANH-LYRIC.lrc?rlkey=6qhbnb1lx6l0gr4gkprutgtap&st=zum542bb&dl=0",
     },
+    {
+        id: "HDCD",
+        name: "Hòn Đá Cô Đơn (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/HONDACODON-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/ki5vzo4c300945oc7val6/HONDACODON-XUANKEN.mp3?rlkey=r8eacc8krzpxdnv29uvntjwfx&st=2qfg1p29&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/HONDACODON-LYRIC.lrc",
+        lrc2: "",
+    },
 ];
