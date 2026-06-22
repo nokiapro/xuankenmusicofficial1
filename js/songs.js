@@ -647,4 +647,12 @@ const songs = [
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/HONDACODON-LYRIC.lrc",
         lrc2: "",
     },
+    {
+        id: "NDCM",
+        name: "Nắng Dưới Chân Mây (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/NANGDUOICHANMAY-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/eizjfie5urez59orb9oit/NANGDUOICHANMAY-XUANKEN.mp3?rlkey=2h8to77of599ay911saobr4xo&st=phvpuo3y&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/NANGDUOICHANMAY-LYRIC.lrc",
+        lrc2: "",
+    },
 ];
