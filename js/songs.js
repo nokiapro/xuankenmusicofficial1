@@ -655,4 +655,20 @@ const songs = [
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/NANGDUOICHANMAY-LYRIC.lrc",
         lrc2: "",
     },
+    {
+        id: "TTLM",
+        name: "Tự Thương Lấy Mình (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/TUTHUONGLAYMINH-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/gtmkbl0oqy0c5zly0e9hy/TUTHUONGLAYMINH-XUANKEN.mp3?rlkey=it9ckweytvd98q0x1xiyuis98&st=dx67terb&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/TUTHUONGLAYMINH-LYRIC.lrc",
+        lrc2: "",
+    },
+    {
+        id: "XLENATT",
+        name: "Xin Lỗi Em Người Anh Từng Thương (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/XINLOIEMNGUOIANHTUNGTHUONG-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/6k3tw1she2y9eup48xov3/XINLOIEMNGUOIANHTUNGTHUONG-XUANKEN.mp3?rlkey=7v5r57t0v3s6a0ilwa7e7hgs3&st=ena6vp9h&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/XINLOIEMNGUOIANHTUNGTHUONG-LYRIC.lrc",
+        lrc2: "",
+    },
 ];
