@@ -197,7 +197,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/ANHTHUAANHTA-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/l9xefrqht2xroh0zvkh3m/ANHTHUAANHTA-XUANKEN.mp3?rlkey=gq3iu0xjycimmsfm4vzedusl4&st=e2jt4ybw&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/ANHTHUAANHTA-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/j7wcy41ledd6mcxy9c574/ANHTHUAANHTA-LYRIC.lrc?rlkey=4jygdn9cm34pe2ifad6bw5npf&st=s1kyhkpy&dl=0",
     },
     {
         id: "CCNNNU",
@@ -605,7 +605,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/NGAYEMDEPNHAT-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/4xsetqxi5vsxjhoim3se6/NGAYEMDEPNHAT-XUANKEN.mp3?rlkey=7zzzc6si03qflrhrlm3r4itge&st=6inq4ja4&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/NGAYEMDEPNHAT-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/j2aw28q1dwbdo2ojk3p2u/NGAYEMDEPNHAT-LYRIC.lrc?rlkey=dodf4lvo3j3jqoiwxygdm3q8m&st=vfpoca6f&dl=0",
     },
     {
         id: "SNCTNU",
@@ -629,7 +629,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/PHIMBANGUOI-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/l5tkq8gagfr6jp6n9lu4t/PHIMBANGUOI-XUANKEN.mp3?rlkey=1tzlmxdm10pajswc0wpsuuivk&st=o8jsi5i1&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/PHIMBANGUOI-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/7t4l16p7klfgyeiebrm78/PHIMBANGUOI-LYRIC.lrc?rlkey=pf68p5oeed0h2dy7jxfxltwad&st=4iyh0x8g&dl=0",
     },
     {
         id: "NDLA",
