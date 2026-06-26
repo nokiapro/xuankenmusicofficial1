@@ -672,6 +672,22 @@ const songs = [
         lrc2: "",
     },
     {
+        id: "CANVIO",
+        name: "Chờ Anh Nhé (Violin) (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/CHOANHNHEVVIOLIN-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/l54tw0gkhku58v19oniy9/CHOANHNHEVVIOLIN-XUANKEN.mp3?rlkey=mnglrm4z9n2r1g2ukcw4c7qy9&st=5jfcw6sw&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/CHOANHNHEVVIOLIN-LYRIC.lrc",
+        lrc2: "",
+    },
+    {
+        id: "CANSAX",
+        name: "Chờ Anh Nhé (Saxophone) (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/CHOANHNHEVSAXOPHONE-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/9r91h2elzvqyfzht2uf7l/CHOANHNHEVSAXOPHONE-XUANKEN.mp3?rlkey=8ikf7u30rfj8rq10jlw4g2e3c&st=gqyqg0ht&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/CHOANHNHEVSAXOPHONE-LYRIC.lrc",
+        lrc2: "",
+    },
+    {
         id: "MHTT",
         name: "Mất Hết Tất Cả (Cover)",
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/MATHETTATCA-XUANKEN.mp3",
