@@ -671,4 +671,28 @@ const songs = [
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/XINLOIEMNGUOIANHTUNGTHUONG-LYRIC.lrc",
         lrc2: "",
     },
+    {
+        id: "MHTT",
+        name: "Mất Hết Tất Cả (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/MATHETTATCA-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/2uc8fi6ldbh7kibk4z819/MATHETTATCA-XUANKEN.mp3?rlkey=646grevuncu42njy4efwamasa&st=an07m7lt&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/MATHETTATCA-LYRIC.lrc",
+        lrc2: "",
+    },
+    {
+        id: "GLT",
+        name: "Giọt Lệ Tình (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/GIOTLETINH-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/yuq1pmc03kc6xrtx1opor/GIOTLETINH-XUANKEN.mp3?rlkey=k8eom8wkl35trpw8dn1jb20m1&st=sgvmk87z&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/GIOTLETINH-LYRIC.lrc",
+        lrc2: "",
+    },
+    {
+        id: "PKBB",
+        name: "Phận Kẻ Bọt Bèo (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/PHANKEBOTBEO-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/f2hzo5e41jp0ke75ad9j2/PHANKEBOTBEO-XUANKEN.mp3?rlkey=d3nhfr9w1z7hcbrmo4k0tngbu&st=84r0yp2f&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/PHANKEBOTBEO-LYRIC.lrc",
+        lrc2: "",
+    },
 ];
