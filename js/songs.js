@@ -711,4 +711,12 @@ const songs = [
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/PHANKEBOTBEO-LYRIC.lrc",
         lrc2: "",
     },
+    {
+        id: "BBVM",
+        name: "Bụi Bay Vào Mắt (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/BUIBAYVAOMAT-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/9wib83xb4ci9x4ifocxge/BUIBAYVAOMAT-XUANKEN.mp3?rlkey=iz3kp2pdogb5pz14yzyy2mzft&st=yo6il774&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/BUIBAYVAOMAT-LYRIC.lrc",
+        lrc2: "",
+    },
 ];
