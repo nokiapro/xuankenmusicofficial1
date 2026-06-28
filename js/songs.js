@@ -589,7 +589,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/NUOCMATROINU-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/o4jrmqoz62h9l0m8nlh76/NUOCMATROINU-XUANKEN.mp3?rlkey=c3as9jr8nwo4ts3mukun9y9eh&st=8fb1gnnu&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/NUOCMATROINU-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/l0sj14mwud45r07irpycu/NUOCMATROINU-LYRIC.lrc?rlkey=tc4ifarbofskwg8h3wbffacys&st=5xcdmo05&dl=0",
     },
     {
         id: "NMRNA",
@@ -597,7 +597,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/NUOCMATROINAM-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/cj69tou602cft2hoew0lq/NUOCMATROINAM-XUANKEN.mp3?rlkey=9dbaw2pqw7f9my1vlgiw6fjga&st=ee8xkayk&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/NUOCMATROINAM-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/lrbvxn6nqwgopjao2y67g/NUOCMATROINAM-LYRIC.lrc?rlkey=9ufpeio273yu45g4cbi6fpoxk&st=h0x79tu5&dl=0",
     },
     {
         id: "NEDN",
