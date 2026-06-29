@@ -613,7 +613,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/SAYNANGCHIEUTANU-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/ahmci3djtc27esedcc56x/SAYNANGCHIEUTANU-XUANKEN.mp3?rlkey=2m6c8mx8fpn2hmsi8dvwukgyu&st=pwk1ssf1&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/SAYNANGCHIEUTANU-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/zirefnvl8wuh2hur5g20c/SAYNANGCHIEUTANU-LYRIC.lrc?rlkey=tswm4326yfkocbo82e4ymh3ju&st=whzpx2fe&dl=0",
     },
     {
         id: "SNCTNA",
@@ -621,7 +621,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/SAYNANGCHIEUTANAM-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/92r9j5r796ejd0zcuy891/SAYNANGCHIEUTANAM-XUANKEN.mp3?rlkey=h933d3lxtc76tuz8re46psigh&st=hu0w0vap&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/SAYNANGCHIEUTANAM-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/uia2jtvisepxnmvfk2qk4/SAYNANGCHIEUTANAM-LYRIC.lrc?rlkey=7fj2eli7bgdp8jegv8jhne5o7&st=h2emqyto&dl=0",
     },
     {
         id: "PBN",
