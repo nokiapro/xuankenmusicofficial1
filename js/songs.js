@@ -719,4 +719,20 @@ const songs = [
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/BUIBAYVAOMAT-LYRIC.lrc",
         lrc2: "",
     },
+	{
+        id: "QAD",
+        name: "Quên Anh Đi (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/QUENANHDI-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/7n6zr41lcdd0sxlqqhme8/QUENANHDI-XUANKEN.mp3?rlkey=m145o0iqps0uex065ztf1t5qc&st=dfb09bte&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/QUENANHDI-LYRIC.lrc",
+        lrc2: "",
+    },
+	{
+        id: "AGLC",
+        name: "Ảo Giác Lần Cuối (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/AOGIACLANCUOI-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/pumi2r1cd9xemu9neo3v4/AOGIACLANCUOI-XUANKEN.mp3?rlkey=wmdpmosl30cgsnkj8afr4n97y&st=w9s7ze53&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/AOGIACLANCUOI-LYRIC.lrc",
+        lrc2: "",
+    },
 ];
