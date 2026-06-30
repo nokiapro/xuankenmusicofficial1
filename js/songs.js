@@ -677,7 +677,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/CHOANHNHEVVIOLIN-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/l54tw0gkhku58v19oniy9/CHOANHNHEVVIOLIN-XUANKEN.mp3?rlkey=mnglrm4z9n2r1g2ukcw4c7qy9&st=5jfcw6sw&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/CHOANHNHEVVIOLIN-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/b24awouegjljhqegecjml/CHOANHVEVVIOLIN-LYRIC.lrc?rlkey=lun7vsr1vg3iauv6vwkc7xqup&st=h81kv92m&dl=0",
     },
     {
         id: "CANSAX",
@@ -685,7 +685,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/CHOANHNHEVSAXOPHONE-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/9r91h2elzvqyfzht2uf7l/CHOANHNHEVSAXOPHONE-XUANKEN.mp3?rlkey=8ikf7u30rfj8rq10jlw4g2e3c&st=gqyqg0ht&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/CHOANHNHEVSAXOPHONE-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/89b8ih8eqb0jqanyadbmb/CHOANHNHEVSAXOPHONE-LYRIC.lrc?rlkey=83ldhi4zxnef1x9xjci8bqnsn&st=c132u9dq&dl=0",
     },
     {
         id: "MHTT",
