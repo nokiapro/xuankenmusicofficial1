@@ -735,4 +735,20 @@ const songs = [
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/AOGIACLANCUOI-LYRIC.lrc",
         lrc2: "",
     },
+    {
+        id: "BTCDT",
+        name: "Bản Tình Ca Đầu Tiên (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/BANTINHCADAUTIEN-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/tqrn2bjsopp1r0s2zfkqa/BANTINHCADAUTIEN-XUANKEN.mp3?rlkey=ifuqe2eqis2lrejvimogzdh2e&st=ab53vrrc&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/BANTINHCADAUTIEN-LYRIC.lrc",
+        lrc2: "",
+    },
+    {
+        id: "MTCST",
+        name: "Mặt Trái Của Sự Thật (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/MATTRAICUASUTHAT-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/gk1ywuc2f6cxiqkvv7fn0/MATTRAICUASUTHAT-XUANKEN.mp3?rlkey=bgmarfabtpuyghdove089mxzp&st=mxt7sghq&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/MATTRAICUASUTHAT-LYRIC.lrc",
+        lrc2: "",
+    },
 ];
