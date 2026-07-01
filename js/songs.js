@@ -725,7 +725,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/QUENANHDI-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/7n6zr41lcdd0sxlqqhme8/QUENANHDI-XUANKEN.mp3?rlkey=m145o0iqps0uex065ztf1t5qc&st=dfb09bte&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/QUENANHDI-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/dyablgwd7ifen7bk2grtl/QUENANHDI-LYRIC.lrc?rlkey=qn94hhcg8ww4ca6zqy8h2qvuj&st=33lcvp0d&dl=0",
     },
 	{
         id: "AGLC",
@@ -733,7 +733,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/AOGIACLANCUOI-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/pumi2r1cd9xemu9neo3v4/AOGIACLANCUOI-XUANKEN.mp3?rlkey=wmdpmosl30cgsnkj8afr4n97y&st=w9s7ze53&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/AOGIACLANCUOI-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/4ibqmsy0ks2u52io325ma/AOGIACLANCUOI-LYRIC.lrc?rlkey=z0608nmll3z4rwkdayr7wvzn8&st=769875wv&dl=0",
     },
     {
         id: "BTCDT",
