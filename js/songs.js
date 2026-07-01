@@ -736,6 +736,14 @@ const songs = [
         lrc2: "https://dl.dropboxusercontent.com/scl/fi/4ibqmsy0ks2u52io325ma/AOGIACLANCUOI-LYRIC.lrc?rlkey=z0608nmll3z4rwkdayr7wvzn8&st=769875wv&dl=0",
     },
     {
+        id: "AMERMK",
+        name: "Ánh Mắt Em (Remake)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/ANHMATEMREMAKE-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/f530f0kzpwi8hsq4b9lus/ANHMATEMREMAKE-XUANKEN.mp3?rlkey=bgmhs5tjmhmy4pl8skslv0357&st=ospthsyr&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/ANHMATEMREMAKE-LYRIC.lrc",
+        lrc2: "",
+    },
+    {
         id: "BTCDT",
         name: "Bản Tình Ca Đầu Tiên (Cover)",
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/BANTINHCADAUTIEN-XUANKEN.mp3",
