@@ -573,7 +573,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/EMLACABAUTROI2-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/yy3puxhph11602isvsugw/EMLACABAUTROI2-XUANKEN.mp3?rlkey=3yf2w8vjrgx4btmakggfppes1&st=e70piblq&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/EMLACABAUTROI2-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/z5wqa5834gxcokmpvt85v/EMLACABAUTROI2-LYRIC.lrc?rlkey=6ne8rxi03h055f6tru53zyjgw&st=ef25uzvw&dl=0",
     },
     {
         id: "TKCERMK",
@@ -645,7 +645,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/HONDACODON-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/ki5vzo4c300945oc7val6/HONDACODON-XUANKEN.mp3?rlkey=r8eacc8krzpxdnv29uvntjwfx&st=2qfg1p29&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/HONDACODON-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/npugsmleom89o470hj9ak/HONDACODON-LYRIC.lrc?rlkey=slc68elnmqscaeuj9gbumiqr6&st=cckwklz4&dl=0",
     },
     {
         id: "NDCM",
