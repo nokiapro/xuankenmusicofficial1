@@ -759,4 +759,20 @@ const songs = [
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/MATTRAICUASUTHAT-LYRIC.lrc",
         lrc2: "",
     },
+    {
+        id: "EBDHCTNU",
+        name: "Em Bán Đi Hết Chân Tình (Version Nữ) (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/EMBANDIHETCHANTINHNU-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/xvy69r1x882is15uuwurq/EMBANDIHETCHANTINHNU-XUANKEN.mp3?rlkey=x3wqhr215a5wh0ssya3fcsxxb&st=xpk44cv3&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/EMBANDIHETCHANTINHNU-LYRIC.lrc",
+        lrc2: "",
+    },
+    {
+        id: "EBDHCTNA",
+        name: "Em Bán Đi Hết Chân Tình (Version Nam) (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/EMBANDIHETCHANTINHNA-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/8h1hv7tyqu6wu4oxeic9f/EMBANDIHETCHANTINHNAM-XUANKEN.mp3?rlkey=woju7mhoz96dnmwuq3kfyrfu9&st=ce16x72x&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/EMBANDIHETCHANTINHNA-LYRIC.lrc",
+        lrc2: "",
+    },
 ];
