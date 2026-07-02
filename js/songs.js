@@ -770,7 +770,7 @@ const songs = [
     {
         id: "EBDHCTNA",
         name: "Em Bán Đi Hết Chân Tình (Version Nam) (Cover)",
-        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/EMBANDIHETCHANTINHNA-XUANKEN.mp3",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/EMBANDIHETCHANTINHNAM-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/8h1hv7tyqu6wu4oxeic9f/EMBANDIHETCHANTINHNAM-XUANKEN.mp3?rlkey=woju7mhoz96dnmwuq3kfyrfu9&st=ce16x72x&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/EMBANDIHETCHANTINHNA-LYRIC.lrc",
         lrc2: "",
