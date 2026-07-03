@@ -341,7 +341,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/CAUVONGTINHYEU-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/cuei0bsf4ytosz2ylxc4w/CAUVONGTINHYEU-XUANKEN.mp3?rlkey=0kd5k7wmyqxqdm9ke0gamgafu&st=wvyrs5jj&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/CAUVONGTINHYEU-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/xd0jtvhl3p0qlmm0du0qw/CAUVONGTINHYEU-LYRIC.lrc?rlkey=ixls46qs37vnkljhli9ic21fc&st=jwvjbt0l&dl=0",
     },
     {
         id: "MCTETD",
@@ -693,7 +693,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/MATHETTATCA-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/2uc8fi6ldbh7kibk4z819/MATHETTATCA-XUANKEN.mp3?rlkey=646grevuncu42njy4efwamasa&st=an07m7lt&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/MATHETTATCA-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/fav3n74u1mrmtrmmfuizf/MATHETTATCA-LYRIC.lrc?rlkey=k6mhbb6qcz5nm77epflzwpsrs&st=u1zqr7xz&dl=0",
     },
     {
         id: "GLT",
@@ -773,6 +773,14 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/EMBANDIHETCHANTINHNAM-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/8h1hv7tyqu6wu4oxeic9f/EMBANDIHETCHANTINHNAM-XUANKEN.mp3?rlkey=woju7mhoz96dnmwuq3kfyrfu9&st=ce16x72x&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/EMBANDIHETCHANTINHNA-LYRIC.lrc",
+        lrc2: "",
+    },
+    {
+        id: "TBTX",
+        name: "Tình Bạn Trường Xưa (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/TINHBANTRUONGXUA-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/a36k7yb7jk2lom3hgn02u/TINHBANTRUONGXUA-XUANKEN.mp3?rlkey=kjy1bie9csvmobptx7ybqhf7b&st=crz0t38q&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/TINHBANTRUONGXUA-LYRIC.lrc",
         lrc2: "",
     },
 ];
