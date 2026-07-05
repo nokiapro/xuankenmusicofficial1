@@ -389,7 +389,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/BAYGIUANGANHA-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/d40siu3rpo5k50r85jdwj/BAYGIUANGANHA-XUANKEN.mp3?rlkey=xqnqr2vc0yvbltpbyre5z2zfa&st=wvuxajfp&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/BAYGIUANGANHA-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/8oopii6e89lj56pr7l3py/BAYGIUANGANHA-LYRIC.lrc?rlkey=7syxh8uyoe0m2rzdqi3bqrvir&st=wj0v41ui&dl=0",
     },
     {
         id: "TLTXCN",
@@ -429,7 +429,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/NGAYEMQUAYGOT-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/kayhesf7xvbvbqx2iw1wo/NGAYEMQUAYGOT-XUANKEN.mp3?rlkey=zirwtjow4nx5ddz9xt5bkw6l6&st=mh8hxs2i&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/NGAYEMQUAYGOT-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/z645svf3l5gfbh8rnvloa/NGAYEMQUAYGOT-LYRIC.lrc?rlkey=8pfxed7owk9tlo2dcf9diku46&st=pnxwwx2a&dl=0",
     },
     {
         id: "VNRDLE",
@@ -669,7 +669,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/XINLOIEMNGUOIANHTUNGTHUONG-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/6k3tw1she2y9eup48xov3/XINLOIEMNGUOIANHTUNGTHUONG-XUANKEN.mp3?rlkey=7v5r57t0v3s6a0ilwa7e7hgs3&st=ena6vp9h&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/XINLOIEMNGUOIANHTUNGTHUONG-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/h310oj05qdm5e8rnpxul9/XINLOIEMNGUOIANHTUNGTHUONG-LYRIC.lrc?rlkey=ufxql1yxp2p8o62nbetz9dj6u&st=z790zkp8&dl=0",
     },
     {
         id: "CANVIO",
@@ -789,7 +789,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/NHONGUOIYEUCU-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/69ems5l39zf5fbjvnsi6h/NHONGUOIYEUCU-XUANKEN.mp3?rlkey=x1tyt1npoff57wc5588eufkeg&st=fkyonalx&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/NHONGUOIYEUCU-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/kdkv73r1xkl78awcgnzj5/NHONGUOIYEUCU-LYRIC.lrc?rlkey=8gj9yffctebl35uh1nim8iqib&st=12hj9249&dl=0",
     },
     {
         id: "TKDTKP",
@@ -797,6 +797,14 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/TINHKHONGDUYENTAKHONGPHAN-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/dboaytq1dad6vwymbaqao/TINHKHONGDUYENTAKHONGPHAN-XUANKEN.mp3?rlkey=iwesuaszodkwxyujta6vjiylp&st=x34qvkiy&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/TINHKHONGDUYENTAKHONGPHAN-LYRIC.lrc",
+        lrc2: "",
+    },
+    {
+        id: "TML",
+        name: "Thêm Một Lần (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/THEMMOTLAN-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/f2bjtg5250bxn0d37fmdf/THEMMOTLAN-XUANKEN.mp3?rlkey=9dmaj2dtrrl7xbtdxjtypkcim&st=7qz121wo&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/THEMMOTLAN-LYRIC.lrc",
         lrc2: "",
     },
 ];
