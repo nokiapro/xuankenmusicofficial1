@@ -357,7 +357,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/CHUCEMHANHPHUC-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/0h0msp09nb4p3y7emkok6/CHUCEMHANHPHUC-XUANKEN.mp3?rlkey=ajwjfdvotwpnk1c5gos4mbrdm&st=mkqi288c&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/CHUCEMHANHPHUC-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/tsqs686txl4ugbwedqkr8/CHUCEMHANHPHUC-LYRIC.lrc?rlkey=tsgbejjq6gb3dkjd5qeh7geiz&st=oau5fasu&dl=0",
     },
     {
         id: "SNLPV",
@@ -381,7 +381,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/MONQUAVOGIA-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/fuijf7q8htphn9q4x142t/MONQUAVOGIA-XUANKEN.mp3?rlkey=q6wrw8w2naxqf332lz4u25pee&st=nla1ou45&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/MONQUAVOGIA-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/pjw5vhl8moccnxm2ed38t/MONQUAVOGIA-LYRIC.lrc?rlkey=7h4ejs4xzb1gs48kkkbdsfu2x&st=sniv712i&dl=0",
     },
     {
         id: "BGNH",
@@ -717,7 +717,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/BUIBAYVAOMAT-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/9wib83xb4ci9x4ifocxge/BUIBAYVAOMAT-XUANKEN.mp3?rlkey=iz3kp2pdogb5pz14yzyy2mzft&st=yo6il774&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/BUIBAYVAOMAT-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/hlzoymsi520851xkx4kos/BUIBAYVAOMAT-LYRIC.lrc?rlkey=8qbljhst5pgbb8y2mpetkg1nw&st=zc5dwp9g&dl=0",
     },
 	{
         id: "QAD",
@@ -765,7 +765,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/EMBANDIHETCHANTINHNU-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/xvy69r1x882is15uuwurq/EMBANDIHETCHANTINHNU-XUANKEN.mp3?rlkey=x3wqhr215a5wh0ssya3fcsxxb&st=xpk44cv3&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/EMBANDIHETCHANTINHNU-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/zoo9ybo2sefj60n8jk2ln/EMBANDIHETCHANTINHNU-LYRIC.lrc?rlkey=cr7jfyty7zh68udveqwvv6fng&st=8nnx9ehd&dl=0",
     },
     {
         id: "EBDHCTNA",
