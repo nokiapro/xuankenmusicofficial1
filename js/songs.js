@@ -349,7 +349,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/MIMCUOITRONGEMTHATDEP-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/9o84fhb69n8hf8lvdl4o7/MIMCUOITRONGEMTHATDEP-XUANKEN.mp3?rlkey=z8y7eo5n3gdfkagq0biwptu3x&st=nms6ahbn&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/MIMCUOITRONGEMTHATDEP-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/rgl1utby91j1z6ru6si4v/MIMCUOITRONGEMTHATDEP-LYRIC.lrc?rlkey=okk2qmwgw4m4pysyse95nfy9h&st=58gekagt&dl=0",
     },
     {
         id: "CEHP",
@@ -445,7 +445,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/CHICONNOINHOREMAKEV1-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/6ylespkgm17zoaqe89j3g/CHICONNOINHOREMAKEV1-XUANKEN.mp3?rlkey=wo0af4fqp1emtwj03r0k0q8lc&st=2ea7lgff&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/CHICONNOINHOREMAKEV1-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/vud0ki5ca1hv080apdcrj/CHICONNOINHOREMAKEV1-LYRIC.lrc?rlkey=539f6tmn2u2vhkavlbwvv1lfb&st=9jjeyper&dl=0",
     },
     {
         id: "CCNNRMKV2",
@@ -781,7 +781,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/TINHBANTRUONGXUA-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/a36k7yb7jk2lom3hgn02u/TINHBANTRUONGXUA-XUANKEN.mp3?rlkey=kjy1bie9csvmobptx7ybqhf7b&st=crz0t38q&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/TINHBANTRUONGXUA-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/nexqoxbeturqfjczxbz9e/TINHBANTRUONGXUA-LYRIC.lrc?rlkey=236erkbzd2hw980txfeml40hi&st=n6vhl1dr&dl=0",
     },
     {
         id: "NNYC",
@@ -797,7 +797,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/TINHKHONGDUYENTAKHONGPHAN-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/dboaytq1dad6vwymbaqao/TINHKHONGDUYENTAKHONGPHAN-XUANKEN.mp3?rlkey=iwesuaszodkwxyujta6vjiylp&st=x34qvkiy&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/TINHKHONGDUYENTAKHONGPHAN-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/7n4i5qh2wiy3lkpc7v7z9/TINHKHONGDUYENTAKHONGPHAN-LYRIC.lrc?rlkey=u24jjnfa0nf65vmi45y9pfh0w&st=9phmrau5&dl=0",
     },
     {
         id: "TML",
@@ -805,6 +805,6 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/THEMMOTLAN-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/f2bjtg5250bxn0d37fmdf/THEMMOTLAN-XUANKEN.mp3?rlkey=9dmaj2dtrrl7xbtdxjtypkcim&st=7qz121wo&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/THEMMOTLAN-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/015owmrawctnx31p49zer/THEMMOTLAN-LYRIC.lrc?rlkey=fy8loxhnqr9cef2ty9v8tz0b9&st=a8a3rtr6&dl=0",
     },
 ];
