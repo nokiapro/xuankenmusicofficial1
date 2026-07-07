@@ -325,7 +325,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/DENCUOIVANLAANHREMAKE-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/c8hf7evi016i7alew1xz0/DENCUOIVANLAANHREMAKE-XUANKEN.mp3?rlkey=nlnsdomphrlv3ste7xbofhm3u&st=b3l7wdlo&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/DENCUOIVANLAANHREMAKE-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/73m1a3n06k95ic3tauh1m/DENCUOIVANLAANHREMAKE-LYRIC.lrc?rlkey=qxuzvukttlkytgr0im9we931h&st=u5kgioji&dl=0",
     },
     {
         id: "LNUA",
@@ -333,7 +333,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/LONGUOIUOTAO-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/m5y2g1dg6zyyyjejvmkab/LONGUOIUOTAO-XUANKEN.mp3?rlkey=dtx7v8qbzz5kwroqb70rxbf8k&st=al9tsqi6&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/LONGUOIUOTAO-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/vg086z5pe827xgt7l80w6/LONGUOIUOTAO-LYRIC.lrc?rlkey=8nxhks775dtybhmuuaeg1cata&st=h10sfswc&dl=0",
     },
     {
         id: "CVTY",
@@ -397,7 +397,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/TUNGLATHANHXUANCUANHAU-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/5q563c9qerc5434o50dwg/TUNGLATHANHXUANCUANHAU-XUANKEN.mp3?rlkey=22c5bqupw97ymipvioe8z3yp0&st=s6wg975g&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/TUNGLATHANHXUANCUANHAU-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/qk5eitpkzs5aflfud9i75/TUNGLATHANHXUANCUANHAU-LYRIC.lrc?rlkey=720xkt4dt86gexa4uop9pxoyw&st=7zojhloh&dl=0",
     },
     {
         id: "CTDT",
@@ -416,12 +416,12 @@ const songs = [
         lrc2: "",
     },
     {
-        id: "NNNA",
-        name: "Ngày Này Năm Ấy (Cover)",
+        id: "NNNAV1",
+        name: "Ngày Này Năm Ấy (Version 1) (Cover)",
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/NGAYNAYNAMAY-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/ms2ebmosb41xcjkbjmg2j/NGAYNAYNAMAY-XUANKEN.mp3?rlkey=ehv6hgm9wgqjuqjti54piua6l&st=1kfaqh3c&dl=0",
-        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/NGAYNAYNAMAY-LYRIC.lrc",
-        lrc2: "",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/NGAYNAYNAMAYV1-LYRIC.lrc",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/p6rl5hcuio1rmhtj0k4sx/NGAYNAYNAMAYV1-LYRIC.lrc?rlkey=pvig18lxppepn383om4azy1m1&st=srn7f43h&dl=0",
     },
     {
         id: "NEQG",
@@ -806,5 +806,13 @@ const songs = [
         audio2: "https://dl.dropboxusercontent.com/scl/fi/f2bjtg5250bxn0d37fmdf/THEMMOTLAN-XUANKEN.mp3?rlkey=9dmaj2dtrrl7xbtdxjtypkcim&st=7qz121wo&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/THEMMOTLAN-LYRIC.lrc",
         lrc2: "https://dl.dropboxusercontent.com/scl/fi/015owmrawctnx31p49zer/THEMMOTLAN-LYRIC.lrc?rlkey=fy8loxhnqr9cef2ty9v8tz0b9&st=a8a3rtr6&dl=0",
+    },
+    {
+        id: "NTN",
+        name: "Người Ta Nói (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/NGUOITANOI-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/l84upajqukf86zajxprvl/NGUOITANOI-XUANKEN.mp3?rlkey=xymih34ogaqm3si21lmio0jzt&st=ikntnavh&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/NGUOITANOI-LYRIC.lrc",
+        lrc2: "",
     },
 ];
