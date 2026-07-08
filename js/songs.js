@@ -453,7 +453,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/CHICONNOINHOREMAKEV2-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/soy9hnrqj9mqzboph8nn5/CHICONNOINHOREMAKEV2-XUANKEN.mp3?rlkey=mlabu6v4daiy1q43kj0tlh2v4&st=q79kf540&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/CHICONNOINHOREMAKEV2-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/hslaq68hlcbl8lno01vnj/CHICONNOINHOREMAKEV2-LYRIC.lrc?rlkey=a245x4old00gbwybuumsrfvrm&st=iw1bmyic&dl=0",
     },
     {
         id: "DPMN",
@@ -701,7 +701,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/GIOTLETINH-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/yuq1pmc03kc6xrtx1opor/GIOTLETINH-XUANKEN.mp3?rlkey=k8eom8wkl35trpw8dn1jb20m1&st=sgvmk87z&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/GIOTLETINH-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/657jvc3qa3saiozx84tf9/GIOTLETINH-LYRIC.lrc?rlkey=3eeysnch4pmsq0oznc9wiupvi&st=620mxczr&dl=0",
     },
     {
         id: "PKBB",
@@ -709,7 +709,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/PHANKEBOTBEO-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/f2hzo5e41jp0ke75ad9j2/PHANKEBOTBEO-XUANKEN.mp3?rlkey=d3nhfr9w1z7hcbrmo4k0tngbu&st=84r0yp2f&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/PHANKEBOTBEO-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/dnrrrkrqk3htjc6lp743x/PHANKEBOTBEO-LYRIC.lrc?rlkey=e59cra3nx0qmhlv8sfqt8nhva&st=ih9cusbc&dl=0",
     },
     {
         id: "BBVM",
@@ -813,6 +813,6 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/NGUOITANOI-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/l84upajqukf86zajxprvl/NGUOITANOI-XUANKEN.mp3?rlkey=xymih34ogaqm3si21lmio0jzt&st=ikntnavh&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/NGUOITANOI-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/yvucnjxtc9lj17uudietl/NGUOITANOI-LYRIC.lrc?rlkey=0vc9wm6zzvouz1eym617kudot&st=22xi7geb&dl=0",
     },
 ];
