@@ -424,6 +424,14 @@ const songs = [
         lrc2: "https://dl.dropboxusercontent.com/scl/fi/p6rl5hcuio1rmhtj0k4sx/NGAYNAYNAMAYV1-LYRIC.lrc?rlkey=pvig18lxppepn383om4azy1m1&st=srn7f43h&dl=0",
     },
     {
+        id: "NNNAV2",
+        name: "Ngày Này Năm Ấy (Version 2) (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/NGAYNAYNAMAYV2-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/u3ldnctdgjzp4bjhd05l8/NGAYNAYNAMAYV2-XUANKEN.mp3?rlkey=tgiba7bz5tmn8xkxcz2tb16lz&st=0jjy4ngr&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/NGAYNAYNAMAYV2-LYRIC.lrc",
+        lrc2: "",
+    },
+    {
         id: "NEQG",
         name: "Ngày Em Quay Gót (Cover)",
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/NGAYEMQUAYGOT-XUANKEN.mp3",
@@ -814,5 +822,13 @@ const songs = [
         audio2: "https://dl.dropboxusercontent.com/scl/fi/l84upajqukf86zajxprvl/NGUOITANOI-XUANKEN.mp3?rlkey=xymih34ogaqm3si21lmio0jzt&st=ikntnavh&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/NGUOITANOI-LYRIC.lrc",
         lrc2: "https://dl.dropboxusercontent.com/scl/fi/yvucnjxtc9lj17uudietl/NGUOITANOI-LYRIC.lrc?rlkey=0vc9wm6zzvouz1eym617kudot&st=22xi7geb&dl=0",
+    },
+    {
+        id: "CVK",
+        name: "Cầu Vồng Khuyết (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/CAUVONGKHUYET-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/ensl6ui96p2wtygdrek87/CAUVONGKHUYET-XUANKEN.mp3?rlkey=s5c14g2o7kvyjlds0f5s0cp8e&st=fb80c0qh&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/CAUVONGKHUYET-LYRIC.lrc",
+        lrc2: "",
     },
 ];
