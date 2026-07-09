@@ -413,7 +413,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/NEUBIETTRUOCREMAKE-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/jk1do59a9y710t9iby1uf/NEUBIETTRUOCREMAKE-XUANKEN.mp3?rlkey=vtcvevpxz0ku0yrk9cv2l6hwl&st=2ucy8oof&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/NEUBIETTRUOCREMAKE-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/vowh0yru3ai6z4mn6r13w/NEUBIETTRUOCREMAKE-LYRIC.lrc?rlkey=wq0zyv9shqsao4fz37pwxkc3t&st=a2nedhps&dl=0",
     },
     {
         id: "NNNAV1",
@@ -589,7 +589,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/TUKHICOEMREMAKE-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/ld2mn9y4xrs9ufu3ai1b7/TUKHICOEMREMAKE-XUANKEN.mp3?rlkey=alogpyc2v1v5hxlfyoneh2kec&st=s5e0fvxk&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/TUKHICOEMREMAKE-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/gpz1qw5k2do6wvw9utwxn/TUKHICOEMREMAKE-LYRIC.lrc?rlkey=f2a7mudsb3kr9fvan687uytkr&st=rbuyq3b9&dl=0",
     },
     {
         id: "NMRNU",
@@ -661,7 +661,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/NANGDUOICHANMAY-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/eizjfie5urez59orb9oit/NANGDUOICHANMAY-XUANKEN.mp3?rlkey=2h8to77of599ay911saobr4xo&st=phvpuo3y&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/NANGDUOICHANMAY-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/tso1e5x90xejrjtz0ok0t/NANGDUOICHANMAY-LYRIC.lrc?rlkey=qh64tjq7tt0xj2hz58tta58kx&st=99s276jj&dl=0",
     },
     {
         id: "TTLM",
@@ -830,5 +830,21 @@ const songs = [
         audio2: "https://dl.dropboxusercontent.com/scl/fi/ensl6ui96p2wtygdrek87/CAUVONGKHUYET-XUANKEN.mp3?rlkey=s5c14g2o7kvyjlds0f5s0cp8e&st=fb80c0qh&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/CAUVONGKHUYET-LYRIC.lrc",
         lrc2: "",
+    },
+    {
+        id: "TTT",
+        name: "Thương Thì Thương (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/THUONGTHITHUONG-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/wryqefsjmxgcc3u6c7no9/THUONGTHITHUONG-XUANKEN.mp3?rlkey=zwokva4ldjch1ey5b27pjzas4&st=ppdg5fhx&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/THUONGTHITHUONG-LYRIC.lrc",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/3zmhyijmekp76ve44ilse/THUONGTHITHUONG-LYRIC.lrc?rlkey=fszex12b5ccamayuczm31ig6w&st=ko8uln5a&dl=0",
+    },
+    {
+        id: "DS",
+        name: "Đến Sau (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/DENSAU-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/bofkl7uoobmo9a2oscr0a/DENSAU-XUANKEN.mp3?rlkey=cdyox3jo3eb6qli3dctrsczrp&st=imgrzt7l&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/DENSAU-LYRIC.lrc",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/wwoyvm5h66jad0pxm6abe/DENSAU-LYRIC.lrc?rlkey=pkl590lc2xsjx1e6c5jt21u7w&st=8r2dnhw9&dl=0",
     },
 ];
