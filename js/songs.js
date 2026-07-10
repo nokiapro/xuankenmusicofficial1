@@ -429,7 +429,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/NGAYNAYNAMAYV2-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/u3ldnctdgjzp4bjhd05l8/NGAYNAYNAMAYV2-XUANKEN.mp3?rlkey=tgiba7bz5tmn8xkxcz2tb16lz&st=0jjy4ngr&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/NGAYNAYNAMAYV2-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/36gxgqwaqgvtnygkta9sp/NGAYNAYNAMAYV2-LYRIC.lrc?rlkey=qk8kxsd0cg3bnnxm477zz5x9p&st=5vzelwnc&dl=0",
     },
     {
         id: "NEQG",
@@ -669,7 +669,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/TUTHUONGLAYMINH-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/gtmkbl0oqy0c5zly0e9hy/TUTHUONGLAYMINH-XUANKEN.mp3?rlkey=it9ckweytvd98q0x1xiyuis98&st=dx67terb&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/TUTHUONGLAYMINH-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/ei8txryp8vb8f2ne96or5/TUTHUONGLAYMINH-LYRIC.lrc?rlkey=cj9eudoebodzy6hct4cf9b8kk&st=r1xfbd8g&dl=0",
     },
     {
         id: "XLENATT",
@@ -757,7 +757,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/BANTINHCADAUTIEN-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/tqrn2bjsopp1r0s2zfkqa/BANTINHCADAUTIEN-XUANKEN.mp3?rlkey=ifuqe2eqis2lrejvimogzdh2e&st=ab53vrrc&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/BANTINHCADAUTIEN-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/937r6obd3mp3tf1496jy3/BANTINHCADAUTIEN-LYRIC.lrc?rlkey=z0auzalayn9tjdwadta87v0uv&st=srrwuzfe&dl=0",
     },
     {
         id: "MTCST",
@@ -829,7 +829,7 @@ const songs = [
         audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/CAUVONGKHUYET-XUANKEN.mp3",
         audio2: "https://dl.dropboxusercontent.com/scl/fi/ensl6ui96p2wtygdrek87/CAUVONGKHUYET-XUANKEN.mp3?rlkey=s5c14g2o7kvyjlds0f5s0cp8e&st=fb80c0qh&dl=0",
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/CAUVONGKHUYET-LYRIC.lrc",
-        lrc2: "",
+        lrc2: "https://dl.dropboxusercontent.com/scl/fi/5hw4aazlkq10qjoiwlehz/CAUVONGKHUYET-LYRIC.lrc?rlkey=9qqdsqxzib3k1v9zo7syt6cbb&st=afriialz&dl=0",
     },
     {
         id: "TTT",
