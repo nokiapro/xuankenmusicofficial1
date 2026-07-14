@@ -847,4 +847,20 @@ const songs = [
         lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/DENSAU-LYRIC.lrc",
         lrc2: "https://dl.dropboxusercontent.com/scl/fi/wwoyvm5h66jad0pxm6abe/DENSAU-LYRIC.lrc?rlkey=pkl590lc2xsjx1e6c5jt21u7w&st=8r2dnhw9&dl=0",
     },
+    {
+        id: "DYNEMRNU",
+        name: "Đừng Yêu Nữa Em Mệt Rồi (Version Nữ) (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/DUNGYEUNUAEMMETROI-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/72ze0crwi3yqqfibvyjkr/DUNGYEUNUAEMMETROI-XUANKEN.mp3?rlkey=86ldkn1sg6tgoxselsswgajof&st=2edvnv2y&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/DUNGYEUNUAEMMETROI-LYRIC.lrc",
+        lrc2: "",
+    },
+    {
+        id: "DYNAMRNA",
+        name: "Đừng Yêu Nữa Anh Mệt Rồi (Version Nam) (Cover)",
+        audio1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/musicofficial/DUNGYEUNUAANHMETROI-XUANKEN.mp3",
+        audio2: "https://dl.dropboxusercontent.com/scl/fi/vz4c35qnfgjsam806zk4p/DUNGYEUNUAANHMETROI-XUANKEN.mp3?rlkey=wzvknclmfmgohztztbiu86zth&st=0da4ca97&dl=0",
+        lrc1: "https://raw.githubusercontent.com/nokiapro/xuankenofficial/main/lyric/DUNGYEUNUAANHMETROI-LYRIC.lrc",
+        lrc2: "",
+    },
 ];
